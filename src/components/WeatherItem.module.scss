@@ -1,0 +1,18 @@
+$border-color: #78938A;
+$box-shadow-color: #525E75;
+$background-color: #92BA92;
+
+p {
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+}
+
+.weatheritem {
+  width: 12rem;
+  padding: 10px 0px 10px 30px;
+  border: solid 20px;
+  border-color:$border-color;
+  border-radius: 5% 15%;
+  box-shadow: 7px 8px $box-shadow-color;
+  background-color: $background-color;
+}
